@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Francisco Donadio - CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Para iconos -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,7 +14,7 @@
             padding: 20px;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
             background: #fff;
             padding: 20px;
@@ -80,10 +81,10 @@
 
         <div class="section">
             <div class="section-title">Contacto</div>
-            <div class="info"><span class="icon"></span> 3515156616</div>
-            <div class="info"><span class="icon"></span> francisco.donadio@mi.unc.edu.ar</div>
-            <div class="info"><span class="icon"></span> Arballo de Bustamante 2812, Córdoba Ciudad</div>
-            <div class="info"><span class="icon"></span> linkedin.com/in/francisco-donadio-1649a4277</div>
+            <div class="info"><span class="icon"><i class="fas fa-phone-alt"></i></span> 3515156616</div>
+            <div class="info"><span class="icon"><i class="fas fa-envelope"></i></span> francisco.donadio@mi.unc.edu.ar</div>
+            <div class="info"><span class="icon"><i class="fas fa-map-marker-alt"></i></span> Arballo de Bustamante 2812, Córdoba Ciudad</div>
+            <div class="info"><span class="icon"><i class="fab fa-linkedin"></i></span> linkedin.com/in/francisco-donadio-1649a4277</div>
         </div>
 
         <div class="section">
