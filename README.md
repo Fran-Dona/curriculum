@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #f0f8ff;
             color: #333;
             margin: 0;
             padding: 20px;
@@ -19,11 +19,12 @@
             background: #fff;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
         .header {
             display: flex;
             align-items: center;
-            border-bottom: 2px solid #ccc;
+            border-bottom: 2px solid #a7c7e7;
             padding-bottom: 10px;
         }
         .photo {
@@ -36,6 +37,7 @@
         .name {
             font-size: 24px;
             font-weight: bold;
+            color: #007acc;
         }
         .title {
             color: #666;
@@ -45,8 +47,9 @@
         }
         .section-title {
             font-size: 20px;
-            border-bottom: 1px solid #ccc;
+            border-bottom: 2px solid #a7c7e7;
             margin-bottom: 10px;
+            color: #007acc;
         }
         .info {
             display: flex;
@@ -56,7 +59,7 @@
         .icon {
             width: 20px;
             height: 20px;
-            background: #666;
+            background: #007acc;
             border-radius: 50%;
             display: inline-block;
             margin-right: 10px;
@@ -87,23 +90,41 @@
         <div class="section">
             <div class="section-title">Educación</div>
             <div class="content">
-                <strong>Licenciatura en Ciencias Geológicas</strong> - UNC (En curso, Tesista)<br>
-                <strong>Data Analytics y GIS</strong> - Academia Ícaro, Codehouse<br>
-                <strong>QGIS Integral y Teledetección</strong> - CONAE, Centro Redes
+                <strong>Bachiller universitario en Ciencias Aplicadas</strong> - Universidad Nacional de Córdoba (Egresado)<br>
+                <strong>Licenciatura en Ciencias Geológicas</strong> - FCEFyN, Universidad Nacional de Córdoba (En curso, Tesista)<br>
+                <strong>Data Analytics y GIS</strong> - Academia Ícaro, FCEFyN, Universidad Nacional de Córdoba<br>
+                <strong>Data Analytics</strong> - Coderhouse<br>
+                <strong>Fundamentos de la Programación</strong> - Universidad Tecnológica Nacional<br>
+                <strong>QGIS Integral - Análisis de Datos Espaciales</strong> - Centro Redes<br>
+                <strong>Introducción a la Teledetección</strong> - CONAE
             </div>
         </div>
 
         <div class="section">
             <div class="section-title">Experiencia</div>
             <div class="content">
-                <strong>Analista de Datos | Consultor GIS</strong> - Municipalidad de Córdoba (2022 - Actualidad)<br>
-                - Análisis de datos, procesos ETL, desarrollo en ArcGIS y Power BI.<br><br>
+                <strong>Analista de Datos | Consultor GIS</strong> - Municipalidad de Córdoba – Observatorio de Datos (2022 - Actualidad)<br>
+                - Análisis de datos y datos territoriales.<br>
+                - Implementación de procesos ETL.<br>
+                - Configuración y personalización de interfaces de usuario, integración de datos geoespaciales y no geoespaciales, desarrollo de herramientas interactivas con ArcGIS Online.<br>
+                - Elaboración, desarrollo y mantenimiento de informes en Power BI.<br><br>
 
-                <strong>Técnico y Analista Ambiental</strong> - IL&A (2022)<br>
-                - Monitoreo ambiental y análisis de emisiones.<br><br>
+                <strong>Técnico y Analista Ambiental</strong> - IL&A - Ingeniería Laboral y Ambiental S.A. (2022)<br>
+                - Monitoreo ambiental.<br>
+                - Muestreo y medición de emisiones gaseosas, calidad de aire, efluentes, agua, suelo, ruido, etc.<br>
+                - Operación y calibración de equipos.<br>
+                - Análisis de muestras y control de repositorio.<br><br>
 
-                <strong>Técnico Electromecánico</strong> - Varios (2013 - 2022)<br>
-                - Instalación y calibración de sistemas técnicos.
+                <strong>Técnico Electromecánico</strong> - Pastorino Global Services (2020 - 2022)<br>
+                - Instalación, calibración, configuración, gestión y mantenimiento de sistemas de telemedición de tanques de combustibles de estaciones de servicios y afines.<br>
+                - Calibración de sistemas de control volumétrico.<br>
+                - Reparación e instalación de componentes electrónicos de surtidores de combustible.<br><br>
+
+                <strong>Técnico Electromecánico</strong> - TECME (Eventual Pandemia)<br>
+                - Ensamblado, calibración y testeo de equipos neumáticos para respiradores artificiales. Carta de recomendación.<br><br>
+
+                <strong>Técnico Electromecánico</strong> - Cintelink (2013 - 2016)<br>
+                - Instalación, calibración y producción de equipos de telemedición para control y administración automatizada del combustible.
             </div>
         </div>
 
