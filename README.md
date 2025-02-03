@@ -1,4 +1,3 @@
-# curriculum
 <!DOCTYPE html>
 <html lang="es">
 <head>
